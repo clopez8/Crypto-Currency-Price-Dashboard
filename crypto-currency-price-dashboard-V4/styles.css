@@ -1,0 +1,426 @@
+
+html body {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+  height: 100%;
+  line-height: 1.15;
+  text-size-adjust: 100%;
+  display: block;
+  background-color: #12161C;
+}
+
+div {
+  display: block;
+}
+
+body {
+  margin: 0px;
+  display: block;
+  width: 100vw;
+  overflow-y: auto;
+}
+
+p {
+  color: white;
+  display: block;
+  overflow-y: auto;
+  margin: 0;
+  min-width: 0px;
+  white-space: nowrap;
+}
+
+.APP {
+  box-sizing: border-box;
+}
+
+header {
+  display: block;
+}
+
+.spacer {
+  display: inline-block;
+  padding: 1px;
+  margin: 0;
+}
+
+.Header {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: flex;
+  top: 0;
+  left: 0;
+  height: 40px;
+  color: rgb(95, 254, 16);
+  background-color: #12161C;
+  align-items: center;
+  width: 100%;
+  outline: none!important;
+  padding-left: 1rem;
+  font-style: italic;
+}
+
+.Main {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  
+  
+  flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+
+.Hero {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  border-width: .0000px;
+  border-style:groove;
+  border-left: none;
+  border-right: none;
+  border-color: #fff;
+  color: rgba(255, 255, 255, 0.892);
+  background-color: #0B0E11;
+  background-size: auto 100%;
+  background-position: center;
+  text-align: center;
+  padding: 3rem 2rem 3rem 2rem;
+  font-size: 1.0rem;
+  font-style: italic;
+  
+}
+
+h1 {
+  color: #fff;
+  text-shadow:
+      0 0 5px rgb(255, 255, 255),
+      0 0 5px rgb(101, 101, 101),
+      0 0 21px #fff,
+      0 0 22px rgb(0, 255, 8),
+      0 0 22px rgb(21, 255, 0),
+      0 0 151px rgb(21, 255, 0);
+}
+
+.Coin__Prices__Outer { /* css-lmyrvm */
+  box-sizing: border-box;
+  margin: auto;
+  padding-top: 12px;
+  min-width: auto;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.Coin__Prices__Inner { /* css-mor7t4 */
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  height: 64px;
+  display: flex;
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .Box__4__Container { /* css-1b8ituo */
+    margin-left: 205%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  
+  
+    justify-content: left space-between;
+  }
+
+  
+
+}
+
+@media screen and (max-width: 840px) {
+
+  .Coin__Prices__Outer { 
+    box-sizing: border-box;
+    padding-left: 0%;
+    margin-left: 10%;
+    padding-top: 12px;
+    min-width: auto;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  .Coin-Container {
+    box-sizing: border-box;
+    margin: auto;
+    min-width: 50px;
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 50px;
+    padding-right: 8px;
+    flex-wrap: 50%;
+  }
+
+}
+
+@media screen and (max-width: 943px) {
+
+  .Coin__Prices__Outer { 
+    box-sizing: border-box;
+    padding-left: 5%;
+    margin: auto;
+    padding-top: 12px;
+    min-width: auto;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  .Coin__Prices__Inner  {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 64px;
+  
+  }
+}
+
+@media screen and (max-width: 955px) {
+
+  .Coin__Prices__Inner {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    padding-left: 14%;
+    padding-right: 18%;
+    height: 64px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .Coin__24HrPercentChange div {
+    font-size: 20px;
+  }
+
+  .CoinName-USDPrice-24HRChange-Container div {
+    font-size: 20px;
+    line-height:30px;
+  }
+
+  img {
+    padding: .5rem .2rem;
+    display: inline-block;
+    max-width: 100%;
+    width: 70px;
+  }
+
+
+
+}
+
+.Box__4__Container { /* css-1b8ituo */
+  margin: -1%;
+  min-width: 0;
+  display: flex;
+  
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+
+  background-color: #12161C;
+}
+
+.Inner__Boxes { /* css-d6us4o */
+  box-sizing: border-box;
+  margin: px;
+  min-width: 0;
+  width:inherit;
+  flex: none;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+  flex-wrap: wrap;
+  
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+  
+}
+
+.Coin-Container {
+  box-sizing: border-box;
+  margin: auto;
+  min-width: 50px;
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 8px;
+  padding-right: 8px;
+  flex-wrap: 50%;
+}
+
+.Coin-Logo-Container {
+  box-sizing: border-box;
+  margin: 0px 8px 0px 0px;
+  border-radius: 99999px;
+}
+
+.CoinName-USDPrice-24HRChange-Container {
+  box-sizing: border-box;
+  margin: 0px;
+  flex: 1 1 0%;
+  font-size: 12px;
+  /* color: rgb(234, 236, 239); */
+  line-height: 18px;
+}
+
+.CoinName-24HRChange-Container {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+}
+
+.css-sgks9e {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  word-break: break-word;
+  /* color: rgb(183, 189, 198); */
+}
+
+.CoinName {
+  box-sizing: border-box;
+  margin: 0px 8px 0px 0px;
+  min-width: 0px;
+  color:ivory
+}
+
+.Coin__24HrPercentChange {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  white-space: nowrap;
+  font-size: 12px;
+  color: rgb(246, 70, 93);
+}
+
+.Coin-USDPrice {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: -webkit-box;
+  word-break: break-word;
+  color: rgb(14, 203, 129);
+}
+
+img {
+  padding: .5rem .2rem;
+  display: inline-block;
+}
+
+.Lower__Container {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0;
+  min-width: 0;
+  margin-top: 12rem;
+  margin-left: auto 40%;
+  margin-bottom: 4rem;
+  display: inline-block;
+  width: 100%;
+  
+}
+
+/* @media screen and (min-width: 767px) {
+  .Coin__Prices__Outer {
+    
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .Coin__Prices__Inner {
+    height: 64px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .Box__4__Container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .Inner__Boxes {
+    width: 25%;
+    padding-left: 0;
+    padding-right: 0;
+   
+  }
+}
+
+
+@media screen and (min-width: 767px) {
+  a {
+    height: 64px;
+  }
+}
+  
+@media screen and (min-width: 767px) {
+ 
+}
+
+@media screen and (min-width: 767px) {
+  
+  .CoinName-USDPrice-24HRChange-Container {
+    font-size: 12px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .CoinName {
+    margin-right: 8px; 
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .Coin__24HrPercentChange {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .Coin-USDPrice {
+    font-size: 12px;
+    line-height: 24px;
+  }
+}
